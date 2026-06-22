@@ -1,0 +1,450 @@
+Progetto realizzato da Valentina Cosenza (matricola 533194)
+
+PROGRAMMA 2
+
+Analizzo il file - The Picture of Dorian Grey.txt
+
+
+1. FREQUENZA ORDINATA PER FREQUENZA DECRESCENTE, CON RELATIVA FREQUENZA, DI
+
+a. 10 POS, BIGRAMMI DI POS E TRIGRAMMI DI POS PIÚ FREQUENTI:
+
+I 10 PoS più frequenti nel corpus sono:
+
+('NN', 821)
+
+('IN', 621)
+
+('PRP', 571)
+
+('DT', 535)
+
+('JJ', 475)
+
+(',', 358)
+
+('.', 343)
+
+('NNP', 327)
+
+('RB', 301)
+
+('VBD', 232)
+
+
+I 10 bigrammi di Pos più frequenti nel corpus sono:
+
+(('DT', 'NN'), 274)
+
+(('NN', 'IN'), 203)
+
+(('IN', 'DT'), 202)
+
+(('JJ', 'NN'), 200)
+
+(('PRP', 'VBP'), 153)
+
+(('DT', 'JJ'), 149)
+
+(('IN', 'PRP'), 125)
+
+(('NNP', 'NNP'), 124)
+
+(('NN', ','), 121)
+
+(('NN', '.'), 112)
+
+
+I 10 trigrammi di Pos più frequenti nel corpus sono:
+
+(('IN', 'DT', 'NN'), 113)
+
+(('DT', 'JJ', 'NN'), 101)
+
+(('DT', 'NN', 'IN'), 92)
+
+(('NN', 'IN', 'DT'), 67)
+
+(('IN', 'DT', 'JJ'), 56)
+
+(('NN', 'IN', 'NN'), 54)
+
+(('JJ', 'NN', 'IN'), 49)
+
+(('.', 'PRP', 'VBP'), 48)
+
+(('NNP', 'NNP', 'NNP'), 41)
+
+(('DT', 'NN', '.'), 40)
+
+
+b. 20 SOSTANTIVI, AVVERBI E AGGETTIVI PIÚ FREQUENTI:
+
+I 20 sostantivi più frequenti nel corpus sono:
+
+('”', 70)
+
+('“', 62)
+
+('’', 30)
+
+('t', 29)
+
+('Gray', 21)
+
+('Lord', 21)
+
+('art', 20)
+
+('Henry', 20)
+
+('Basil', 20)
+
+('Harry', 19)
+
+('Hallward', 16)
+
+('artist', 15)
+
+('things', 14)
+
+('thing', 14)
+
+('life', 14)
+
+('face', 13)
+
+('man', 11)
+
+('time', 11)
+
+('s', 10)
+
+('people', 10)
+
+
+I 20 avverbi più frequenti nel corpus sono:
+
+('not', 34)
+
+('so', 21)
+
+('never', 18)
+
+('quite', 13)
+
+('very', 11)
+
+('only', 9)
+
+('really', 9)
+
+('too', 8)
+
+('always', 8)
+
+('ever', 6)
+
+('merely', 6)
+
+('simply', 6)
+
+('now', 5)
+
+('away', 5)
+
+('there', 4)
+
+('perfectly', 4)
+
+('absolutely', 4)
+
+('horribly', 4)
+
+('much', 4)
+
+('once', 3)
+
+
+I 20 aggettivi più frequenti nel corpus sono:
+
+('’', 21)
+
+('Dorian', 18)
+
+('beautiful', 10)
+
+('own', 10)
+
+('young', 9)
+
+('good', 9)
+
+('“', 8)
+
+('new', 7)
+
+('t', 7)
+
+('”', 7)
+
+('such', 6)
+
+('dear', 6)
+
+('long', 5)
+
+('little', 5)
+
+('many', 5)
+
+('much', 5)
+
+('intellectual', 5)
+
+('s', 5)
+
+('huge', 4)
+
+('extraordinary', 4)
+
+
+2. ESTRARRE I BIGRAMMI COMPOSTI DA AGGETTIVO - SOSTANTIVO E MOSTRARE:
+
+a. I 20 PIÚ FREQUENTI CON RELATIVA FREQUENZA
+
+I 20 bigrammi Aggettivo-Sostantivo più frequenti nel corpus sono:
+
+(('’', 'JJ'), ('t', 'NN')) -> 17
+
+(('Dorian', 'JJ'), ('Gray', 'NNP')) -> 14
+
+(('beautiful', 'JJ'), ('things', 'NNS')) -> 6
+
+(('”', 'JJ'), ('“', 'NN')) -> 5
+
+(('young', 'JJ'), ('man', 'NN')) -> 4
+
+(('dear', 'JJ'), ('fellow', 'NN')) -> 3
+
+(('dear', 'JJ'), ('Basil', 'NNP')) -> 3
+
+(('’', 'JJ'), ('t', 'NNS')) -> 3
+
+(('Dorian', 'JJ'), ('Gray.', 'NNP')) -> 3
+
+(('nineteenth', 'JJ'), ('century', 'NN')) -> 2
+
+(('own', 'JJ'), ('face', 'NN')) -> 2
+
+(('young', 'JJ'), ('men', 'NNS')) -> 2
+
+(('old', 'JJ'), ('men', 'NNS')) -> 2
+
+(('t', 'JJ'), ('exhibit', 'NN')) -> 2
+
+(('intellectual', 'JJ'), ('expression', 'NN')) -> 2
+
+(('real', 'JJ'), ('reason.', 'NN')) -> 2
+
+(('first', 'JJ'), ('time', 'NN')) -> 2
+
+(('whole', 'JJ'), ('soul', 'NN')) -> 2
+
+(('all.', 'JJ'), ('”', 'NNP')) -> 2
+
+(('good', 'JJ'), ('looks', 'NNS')) -> 2
+
+
+b. I 20 CON PROBABILITÁ CONDIZIONATA MASSIMA E RELATIVO VALORE DI PROBABILITÁ
+
+I 20 bigrammi Aggettivo-Sostantivo con probabilità condizionata massima e relativo valore di probabilità sono:
+
+(('shrill', 'JJ'), ('voice', 'NN')) -> 1.0
+
+(('romantic', 'JJ'), ('spirit', 'NN')) -> 1.0
+
+(('open', 'JJ'), ('door', 'NN')) -> 1.0
+
+(('tall', 'JJ'), ('laurel', 'NN')) -> 1.0
+
+(('distant', 'JJ'), ('organ', 'NN')) -> 1.0
+
+(('full-length', 'JJ'), ('portrait', 'NN')) -> 1.0
+
+(('tragic', 'JJ'), ('whisper', 'NN')) -> 1.0
+
+(('rapid', 'JJ'), ('_précis_', 'NN')) -> 1.0
+
+(('gauze', 'JJ'), ('wings', 'NNS')) -> 1.0
+
+(('coal-black', 'JJ'), ('hair', 'NN')) -> 1.0
+
+(('over-educate', 'JJ'), ('ourselves', 'NNS')) -> 1.0
+
+(('silent', 'JJ'), ('amusement', 'NN')) -> 1.0
+
+(('ago.', 'JJ'), ('”', 'NNP')) -> 1.0
+
+(('dim', 'JJ'), ('roar', 'NN')) -> 1.0
+
+(('half-way', 'JJ'), ('round', 'NN')) -> 1.0
+
+(('gigantic', 'JJ'), ('tiaras', 'NNS')) -> 1.0
+
+(('special', 'JJ'), ('property', 'NN')) -> 1.0
+
+(('vain.', 'JJ'), ('”', 'NNP')) -> 1.0
+
+(('terrible', 'JJ'), ('crisis', 'NN')) -> 1.0
+
+(('perfect', 'JJ'), ('use', 'NN')) -> 1.0
+
+
+c. I 20 CON FORZA ASSOCIATIVA MASSIMA E RELATIVA PMI
+
+I 20 bigrammi Aggettivo-Sostantivo con forza associativa massima e relativo valore di PMI sono:
+
+(('shrill', 'JJ'), ('voice', 'NN')) -> 13
+
+(('tall', 'JJ'), ('laurel', 'NN')) -> 13
+
+(('distant', 'JJ'), ('organ', 'NN')) -> 13
+
+(('tragic', 'JJ'), ('whisper', 'NN')) -> 13
+
+(('rapid', 'JJ'), ('_précis_', 'NN')) -> 13
+
+(('gauze', 'JJ'), ('wings', 'NNS')) -> 13
+
+(('silent', 'JJ'), ('amusement', 'NN')) -> 13
+
+(('dim', 'JJ'), ('roar', 'NN')) -> 13
+
+(('gigantic', 'JJ'), ('tiaras', 'NNS')) -> 13
+
+(('special', 'JJ'), ('property', 'NN')) -> 13
+
+(('terrible', 'JJ'), ('crisis', 'NN')) -> 13
+
+(('perfect', 'JJ'), ('use', 'NN')) -> 13
+
+(('pink-flowering', 'JJ'), ('thorn', 'NN')) -> 13
+
+(('patent-leather', 'JJ'), ('boot', 'NN')) -> 13
+
+(('astounding', 'JJ'), ('details', 'NNS')) -> 13
+
+(('delicate', 'JJ'), ('perfume', 'NN')) -> 13
+
+(('sullen', 'JJ'), ('murmur', 'NN')) -> 13
+
+(('trivial', 'JJ'), ('side', 'NN')) -> 13
+
+(('immoral', 'JJ'), ('book', 'NN')) -> 13
+
+(('ravelled', 'JJ'), ('skeins', 'NNS')) -> 13
+
+
+3. CONSIDERARE LE FRASI CON UNA LUNGHEZZA COMPRESA TRA I 10 E I 20 TOKEN, IN CUI ALMENO LA METÁ DEI TOKEN OCCORE ALMENO 2 VOLTE NEL CORPUS(NON È UN HAPAX), SI IDENTIFICHINO:
+
+a. LA FRASE CON LA MEDIA DELLA DISTRIBUZIONE DI FREQUENZA DEI TOKEN PIÙ ALTA
+
+La frase con la media della distribuzione di frequenza dei token più alta è:
+'Except, of course, in the Church.' con una media di frequenza di '167'
+
+
+b. LA FRASE CON LA MEDIA DELLA DISTRIBUZIONE DI FREQUENZA DEI TOKEN PIÙ BASSA
+
+La frase con la media della distribuzione di frequenza dei token più bassa è:
+'How perfectly hideous they are!' con una media di frequenza di '12'
+
+
+c. LA FRASE CON LA PROBABILITÁ PIÙ ALTA SECONDO UN MODELLO DI MARKOV DI ORDINE 2 COSTRUITO A PARTIRE DAL CORPUS DI INPUT
+
+La frase con la probabilità più alta secondo il modello di Markov di ordine 2 è:
+'They
+neither bring ruin upon others, nor ever receive it from alien hands.' con una probabilità di '0.0001574555188159345'
+
+
+4. ESTATTE LE ENTITÁ NOMINATE DEL TESTO, IDENTIFICARE PER CIASCUNA CLASSE DI NE I 15 ELEMENTI PIÙ FREQUENTI, ORDINATI PER FREQUENZA DESCESCENTE E CON RELATIVA FREQUENZA:
+
+Le 15 entità nominate 'PERSON' più frequenti sono:
+
+('Harry', 19)
+
+('Dorian Gray', 13)
+
+('Lord Henry', 11)
+
+('Basil', 10)
+
+('Hallward', 9)
+
+('Basil Hallward', 6)
+
+('Henry', 5)
+
+('Don', 5)
+
+('Lady Brandon', 5)
+
+('Dorian', 2)
+
+('Mr. Dorian Gray', 2)
+
+('Oscar Wilde THE', 1)
+
+('Thought', 1)
+
+('Lord Henry Wotton', 1)
+
+('Adonis', 1)
+
+
+Le 15 entità nominate 'GPE' più frequenti sono:
+
+('Dorian', 5)
+
+('Caliban', 2)
+
+('Greek', 2)
+
+('Persian', 1)
+
+('Japanese', 1)
+
+('Tokyo', 1)
+
+('London', 1)
+
+('England', 1)
+
+('Narcissus', 1)
+
+('Church', 1)
+
+('English', 1)
+
+
+Le 15 entità nominate 'ORGANIZATION' più frequenti sono:
+
+('Lord Henry', 3)
+
+('Picture of Dorian Gray', 1)
+
+('OSCAR', 1)
+
+('Academy', 1)
+
+('Grosvenor', 1)
+
+('Oxford', 1)
+
+('Intellect', 1)
+
+('Gray', 1)
+
+('Duke', 1)
+
+('Lady Brandon', 1)

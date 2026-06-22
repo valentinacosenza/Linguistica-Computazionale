@@ -1,0 +1,260 @@
+Progetto realizzato da Valentina Cosenza (matricola 533194)
+
+PROGRAMMA 1
+
+
+1. NUMERO FRASI E TOKEN
+
+File 1 - The most famous speeches of Queen Elizabeth II
+
+Il file 1 è composto da 242 frasi e da 6115 tokens.
+
+
+File 2 - The Picture of Dorian Grey
+
+Il file 2 è composto da 318 frasi e da 6351 tokens.
+
+
+2. LUNGHEZZA MEDIA DELLE FRASI IN TOKEN E LUNGHEZZA MEDIA DEI TOKEN, AD ECCEZIONE DELLA PUNTEGGIATURA, IN CARATTERI
+
+File 1 - The most famous speeches of Queen Elizabeth II
+
+Il file 1 ha una lunghezza media di frase di 25.268595041322314 tokens e ha una lunghezza media di token di 4.326012601260126 caratteri.
+
+
+File 2 - The Picture of Dorian Grey
+
+Il file 2 ha una lunghezza media di frase di 19.971698113207548 tokens e ha una lunghezza media di token di 4.035720632663942 caratteri.
+
+
+3. NUMERO DI HAPAX TRA I PRIMI 500, 1000, 3000, TOKEN E NELL'INTERO CORPUS
+
+File 1 - The most famous speeches of Queen Elizabeth II
+
+Il numero di hapax nei primi 500 token del corpus è: 63.
+
+Il numero di hapax nei primi 1000 token del corpus è: 124.
+
+Il numero di hapax nei primi 3000 token del corpus è: 428.
+
+Il numero di hapax nei primi 6115 token del corpus è: 900.
+
+
+File 2 - The Picture of Dorian Grey
+
+Il numero di hapax nei primi 500 token del corpus è: 88.
+
+Il numero di hapax nei primi 1000 token del corpus è: 195.
+
+Il numero di hapax nei primi 3000 token del corpus è: 440.
+
+Il numero di hapax nei primi 6351 token del corpus è: 894.
+
+
+4. DIMENSIONE DEL VOCABOLARIO E RICCHEZZA LESSICALE CALCOLATA PER PORZIONI INCREMENTALI DI 200 TOKEN
+
+File 1 - The most famous speeches of Queen Elizabeth II
+
+La dimensione del vocabolario per i primi 200 token del corpus è di 124 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 200 token del corpus è pari a 0.62.
+
+La dimensione del vocabolario per i primi 400 token del corpus è di 191 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 400 token del corpus è pari a 0.4775.
+
+La dimensione del vocabolario per i primi 600 token del corpus è di 260 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 600 token del corpus è pari a 0.43333333333333335.
+
+La dimensione del vocabolario per i primi 800 token del corpus è di 313 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 800 token del corpus è pari a 0.39125.
+
+La dimensione del vocabolario per i primi 1000 token del corpus è di 377 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1000 token del corpus è pari a 0.377.
+
+La dimensione del vocabolario per i primi 1200 token del corpus è di 432 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1200 token del corpus è pari a 0.36.
+
+La dimensione del vocabolario per i primi 1400 token del corpus è di 484 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1400 token del corpus è pari a 0.3457142857142857.
+
+La dimensione del vocabolario per i primi 1600 token del corpus è di 531 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1600 token del corpus è pari a 0.331875.
+
+La dimensione del vocabolario per i primi 1800 token del corpus è di 588 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1800 token del corpus è pari a 0.32666666666666666.
+
+La dimensione del vocabolario per i primi 2000 token del corpus è di 643 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2000 token del corpus è pari a 0.3215.
+
+La dimensione del vocabolario per i primi 2200 token del corpus è di 679 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2200 token del corpus è pari a 0.30863636363636365.
+
+La dimensione del vocabolario per i primi 2400 token del corpus è di 719 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2400 token del corpus è pari a 0.2995833333333333.
+
+La dimensione del vocabolario per i primi 2600 token del corpus è di 784 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2600 token del corpus è pari a 0.30153846153846153.
+
+La dimensione del vocabolario per i primi 2800 token del corpus è di 836 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2800 token del corpus è pari a 0.2985714285714286.
+
+La dimensione del vocabolario per i primi 3000 token del corpus è di 873 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3000 token del corpus è pari a 0.291.
+
+La dimensione del vocabolario per i primi 3200 token del corpus è di 918 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3200 token del corpus è pari a 0.286875.
+
+La dimensione del vocabolario per i primi 3400 token del corpus è di 968 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3400 token del corpus è pari a 0.2847058823529412.
+
+La dimensione del vocabolario per i primi 3600 token del corpus è di 1019 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3600 token del corpus è pari a 0.28305555555555556.
+
+La dimensione del vocabolario per i primi 3800 token del corpus è di 1048 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3800 token del corpus è pari a 0.27578947368421053.
+
+La dimensione del vocabolario per i primi 4000 token del corpus è di 1080 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4000 token del corpus è pari a 0.27.
+
+La dimensione del vocabolario per i primi 4200 token del corpus è di 1123 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4200 token del corpus è pari a 0.2673809523809524.
+
+La dimensione del vocabolario per i primi 4400 token del corpus è di 1151 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4400 token del corpus è pari a 0.2615909090909091.
+
+La dimensione del vocabolario per i primi 4600 token del corpus è di 1176 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4600 token del corpus è pari a 0.25565217391304346.
+
+La dimensione del vocabolario per i primi 4800 token del corpus è di 1211 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4800 token del corpus è pari a 0.2522916666666667.
+
+La dimensione del vocabolario per i primi 5000 token del corpus è di 1249 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5000 token del corpus è pari a 0.2498.
+
+La dimensione del vocabolario per i primi 5200 token del corpus è di 1286 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5200 token del corpus è pari a 0.2473076923076923.
+
+La dimensione del vocabolario per i primi 5400 token del corpus è di 1306 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5400 token del corpus è pari a 0.24185185185185185.
+
+La dimensione del vocabolario per i primi 5600 token del corpus è di 1350 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5600 token del corpus è pari a 0.24107142857142858.
+
+La dimensione del vocabolario per i primi 5800 token del corpus è di 1401 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5800 token del corpus è pari a 0.24155172413793102.
+
+La dimensione del vocabolario per i primi 6000 token del corpus è di 1428 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 6000 token del corpus è pari a 0.238.
+
+La dimensione del vocabolario per i primi 6200 token del corpus è di 1455 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 6200 token del corpus è pari a 0.23793949304987735.
+
+
+File 2 - The Picture of Dorian Grey
+
+La dimensione del vocabolario per i primi 200 token del corpus è di 105 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 200 token del corpus è pari a 0.525.
+
+La dimensione del vocabolario per i primi 400 token del corpus è di 177 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 400 token del corpus è pari a 0.4425.
+
+La dimensione del vocabolario per i primi 600 token del corpus è di 279 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 600 token del corpus è pari a 0.465.
+
+La dimensione del vocabolario per i primi 800 token del corpus è di 369 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 800 token del corpus è pari a 0.46125.
+
+La dimensione del vocabolario per i primi 1000 token del corpus è di 437 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1000 token del corpus è pari a 0.437.
+
+La dimensione del vocabolario per i primi 1200 token del corpus è di 491 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1200 token del corpus è pari a 0.4091666666666667.
+
+La dimensione del vocabolario per i primi 1400 token del corpus è di 556 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1400 token del corpus è pari a 0.39714285714285713.
+
+La dimensione del vocabolario per i primi 1600 token del corpus è di 610 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1600 token del corpus è pari a 0.38125.
+
+La dimensione del vocabolario per i primi 1800 token del corpus è di 659 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 1800 token del corpus è pari a 0.3661111111111111.
+
+La dimensione del vocabolario per i primi 2000 token del corpus è di 710 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2000 token del corpus è pari a 0.355.
+
+La dimensione del vocabolario per i primi 2200 token del corpus è di 757 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2200 token del corpus è pari a 0.3440909090909091.
+
+La dimensione del vocabolario per i primi 2400 token del corpus è di 781 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2400 token del corpus è pari a 0.3254166666666667.
+
+La dimensione del vocabolario per i primi 2600 token del corpus è di 817 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2600 token del corpus è pari a 0.31423076923076926.
+
+La dimensione del vocabolario per i primi 2800 token del corpus è di 873 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 2800 token del corpus è pari a 0.3117857142857143.
+
+La dimensione del vocabolario per i primi 3000 token del corpus è di 908 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3000 token del corpus è pari a 0.30266666666666664.
+
+La dimensione del vocabolario per i primi 3200 token del corpus è di 951 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3200 token del corpus è pari a 0.2971875.
+
+La dimensione del vocabolario per i primi 3400 token del corpus è di 993 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3400 token del corpus è pari a 0.29205882352941176.
+
+La dimensione del vocabolario per i primi 3600 token del corpus è di 1032 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3600 token del corpus è pari a 0.2866666666666667.
+
+La dimensione del vocabolario per i primi 3800 token del corpus è di 1065 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 3800 token del corpus è pari a 0.2802631578947368.
+
+La dimensione del vocabolario per i primi 4000 token del corpus è di 1107 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4000 token del corpus è pari a 0.27675.
+
+La dimensione del vocabolario per i primi 4200 token del corpus è di 1152 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4200 token del corpus è pari a 0.2742857142857143.
+
+La dimensione del vocabolario per i primi 4400 token del corpus è di 1174 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4400 token del corpus è pari a 0.26681818181818184.
+
+La dimensione del vocabolario per i primi 4600 token del corpus è di 1199 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4600 token del corpus è pari a 0.26065217391304346.
+
+La dimensione del vocabolario per i primi 4800 token del corpus è di 1225 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 4800 token del corpus è pari a 0.2552083333333333.
+
+La dimensione del vocabolario per i primi 5000 token del corpus è di 1248 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5000 token del corpus è pari a 0.2496.
+
+La dimensione del vocabolario per i primi 5200 token del corpus è di 1266 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5200 token del corpus è pari a 0.24346153846153845.
+
+La dimensione del vocabolario per i primi 5400 token del corpus è di 1299 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5400 token del corpus è pari a 0.24055555555555555.
+
+La dimensione del vocabolario per i primi 5600 token del corpus è di 1323 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5600 token del corpus è pari a 0.23625.
+
+La dimensione del vocabolario per i primi 5800 token del corpus è di 1362 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 5800 token del corpus è pari a 0.23482758620689656.
+
+La dimensione del vocabolario per i primi 6000 token del corpus è di 1390 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 6000 token del corpus è pari a 0.23166666666666666.
+
+La dimensione del vocabolario per i primi 6200 token del corpus è di 1417 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 6200 token del corpus è pari a 0.2285483870967742.
+
+La dimensione del vocabolario per i primi 6400 token del corpus è di 1435 parole tipo.
+L'indice di ricchezza lessicale(TTR) per i primi 6400 token del corpus è pari a 0.225948669500866.
+
+
+5. NUMERO DEI LEMMI DISTINTI
+
+File 1 - The most famous speeches of Queen Elizabeth II
+
+Il file 1 contiene 1274 lemmi distinti.
+
+
+File 2 - The Picture of Dorian Grey
+
+Il file 2 contiene 1273 lemmi distinti.

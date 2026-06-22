@@ -1,0 +1,468 @@
+Progetto realizzato da Valentina Cosenza (matricola 533194)
+
+PROGRAMMA 2
+
+Analizzo il file - The most famous speeches of Queen Elizabeth II.txt
+
+
+1. FREQUENZA ORDINATA PER FREQUENZA DECRESCENTE, CON RELATIVA FREQUENZA, DI
+
+a. 10 POS, BIGRAMMI DI POS E TRIGRAMMI DI POS PIÚ FREQUENTI:
+
+I 10 PoS più frequenti nel corpus sono:
+
+('IN', 731)
+
+('NN', 666)
+
+('DT', 567)
+
+('PRP', 447)
+
+('JJ', 359)
+
+('NNS', 326)
+
+('RB', 280)
+
+('CC', 266)
+
+(',', 265)
+
+('NNP', 257)
+
+
+I 10 bigrammi di Pos più frequenti nel corpus sono:
+
+(('IN', 'DT'), 220)
+
+(('DT', 'NN'), 213)
+
+(('NN', 'IN'), 203)
+
+(('PRP', 'VBP'), 146)
+
+(('JJ', 'NN'), 123)
+
+(('IN', 'PRP'), 115)
+
+(('TO', 'VB'), 113)
+
+(('NNS', 'IN'), 110)
+
+(('DT', 'JJ'), 108)
+
+(('IN', 'NN'), 91)
+
+
+I 10 trigrammi di Pos più frequenti nel corpus sono:
+
+(('DT', 'NN', 'IN'), 92)
+
+(('IN', 'DT', 'NN'), 74)
+
+(('DT', 'JJ', 'NN'), 65)
+
+(('NN', 'IN', 'DT'), 63)
+
+(('IN', 'DT', 'JJ'), 46)
+
+(('JJ', 'NN', 'IN'), 43)
+
+(('PRP', 'MD', 'VB'), 41)
+
+(('IN', 'PRP$', 'NN'), 40)
+
+(('NNS', 'IN', 'DT'), 38)
+
+(('IN', 'DT', 'NNS'), 35)
+
+
+b. 20 SOSTANTIVI, AVVERBI E AGGETTIVI PIÚ FREQUENTI:
+
+I 20 sostantivi più frequenti nel corpus sono:
+
+('people', 19)
+
+('life', 19)
+
+('world', 17)
+
+('Christmas', 17)
+
+('time', 15)
+
+('family', 13)
+
+('children', 12)
+
+('Commonwealth', 12)
+
+('years', 12)
+
+('Queen', 11)
+
+('home', 11)
+
+('country', 10)
+
+('friends', 8)
+
+('kind', 8)
+
+('today', 8)
+
+('things', 8)
+
+('London', 8)
+
+('United', 7)
+
+('year', 7)
+
+('Lord', 7)
+
+
+I 20 avverbi più frequenti nel corpus sono:
+
+('not', 27)
+
+('so', 20)
+
+('also', 17)
+
+('now', 13)
+
+('too', 10)
+
+('often', 8)
+
+('very', 8)
+
+('just', 7)
+
+('as', 7)
+
+('well', 7)
+
+('together', 7)
+
+('again', 7)
+
+('especially', 6)
+
+('even', 6)
+
+('quite', 5)
+
+('always', 5)
+
+('still', 4)
+
+('deeply', 4)
+
+('here', 4)
+
+('much', 4)
+
+
+I 20 aggettivi più frequenti nel corpus sono:
+
+('many', 22)
+
+('great', 15)
+
+('good', 13)
+
+('new', 11)
+
+('happy', 7)
+
+('own', 7)
+
+('much', 6)
+
+('sure', 6)
+
+('old', 6)
+
+('last', 6)
+
+('possible', 5)
+
+('different', 4)
+
+('British', 4)
+
+('young', 4)
+
+('able', 4)
+
+('first', 4)
+
+('personal', 4)
+
+('few', 4)
+
+('other', 4)
+
+('true', 3)
+
+
+2. ESTRARRE I BIGRAMMI COMPOSTI DA AGGETTIVO - SOSTANTIVO E MOSTRARE:
+
+a. I 20 PIÚ FREQUENTI CON RELATIVA FREQUENZA
+
+I 20 bigrammi Aggettivo-Sostantivo più frequenti nel corpus sono:
+
+(('many', 'JJ'), ('people', 'NNS')) -> 4
+
+(('same', 'JJ'), ('time', 'NN')) -> 2
+
+(('own', 'JJ'), ('family', 'NN')) -> 2
+
+(('public', 'JJ'), ('life', 'NN')) -> 2
+
+(('happy', 'JJ'), ('Christmas', 'NNP')) -> 2
+
+(('good', 'JJ'), ('wishes', 'NNS')) -> 2
+
+(('great', 'JJ'), ('hall', 'NN')) -> 2
+
+(('last', 'JJ'), ('weekend', 'NN')) -> 2
+
+(('enormous', 'JJ'), ('changes', 'NNS')) -> 2
+
+(('great', 'JJ'), ('happiness', 'NN')) -> 2
+
+(('famous', 'JJ'), ('speeches', 'NNS')) -> 1
+
+(('happy', 'JJ'), ('Children', 'NNP')) -> 1
+
+(('new', 'JJ'), ('surroundings', 'NNS')) -> 1
+
+(('true', 'JJ'), ('sympathy', 'NN')) -> 1
+
+(('wartime', 'JJ'), ('home', 'NN')) -> 1
+
+(('different', 'JJ'), ('parts', 'NNS')) -> 1
+
+(('new', 'JJ'), ('sights', 'NNS')) -> 1
+
+(('gallant', 'JJ'), ('sailors', 'NNS')) -> 1
+
+(('own', 'JJ'), ('share', 'NN')) -> 1
+
+(('good', 'JJ'), ('luck', 'NN')) -> 1
+
+
+b. I 20 CON PROBABILITÁ CONDIZIONATA MASSIMA E RELATIVO VALORE DI PROBABILITÁ
+
+I 20 bigrammi Aggettivo-Sostantivo con probabilità condizionata massima e relativo valore di probabilità sono:
+
+(('extra', 'JJ'), ('dimension', 'NN')) -> 1.0
+
+(('instinctive', 'JJ'), ('compassion', 'NN')) -> 1.0
+
+(('memorable', 'JJ'), ('events', 'NNS')) -> 1.0
+
+(('magnificent', 'JJ'), ('standard', 'NN')) -> 1.0
+
+(('day-to-day', 'JJ'), ('duties', 'NNS')) -> 1.0
+
+(('overwhelming', 'JJ'), ('expression', 'NN')) -> 1.0
+
+(('contemporary', 'JJ'), ('commentators', 'NNS')) -> 1.0
+
+(('dramatic', 'JJ'), ('changes', 'NNS')) -> 1.0
+
+(('particular', 'JJ'), ('moment', 'NN')) -> 1.0
+
+(('sympathetic', 'JJ'), ('correspondents', 'NNS')) -> 1.0
+
+(('glorious', 'JJ'), ('years', 'NNS')) -> 1.0
+
+(('beloved', 'JJ'), ('Philip', 'NNP')) -> 1.0
+
+(('challenging', 'JJ'), ('time', 'NN')) -> 1.0
+
+(('several', 'JJ'), ('generations', 'NNS')) -> 1.0
+
+(('devastating', 'JJ'), ('loss', 'NN')) -> 1.0
+
+(('good-humored', 'JJ'), ('resolve', 'NN')) -> 1.0
+
+(('twenty-first', 'JJ'), ('birthday', 'NN')) -> 1.0
+
+(('basic', 'JJ'), ('stability', 'NN')) -> 1.0
+
+(('critical', 'JJ'), ('moment', 'NN')) -> 1.0
+
+(('worldwide', 'JJ'), ('turmoil', 'NN')) -> 1.0
+
+
+c. I 20 CON FORZA ASSOCIATIVA MASSIMA E RELATIVA PMI
+
+I 20 bigrammi Aggettivo-Sostantivo con forza associativa massima e relativo valore di PMI sono:
+
+(('extra', 'JJ'), ('dimension', 'NN')) -> 13
+
+(('magnificent', 'JJ'), ('standard', 'NN')) -> 13
+
+(('day-to-day', 'JJ'), ('duties', 'NNS')) -> 13
+
+(('contemporary', 'JJ'), ('commentators', 'NNS')) -> 13
+
+(('sympathetic', 'JJ'), ('correspondents', 'NNS')) -> 13
+
+(('good-humored', 'JJ'), ('resolve', 'NN')) -> 13
+
+(('worldwide', 'JJ'), ('turmoil', 'NN')) -> 13
+
+(('lovely', 'JJ'), ('lands', 'NNS')) -> 13
+
+(('terrorist', 'JJ'), ('bombs', 'NNS')) -> 13
+
+(('initial', 'JJ'), ('shock', 'NN')) -> 13
+
+(('Last', 'JJ'), ('October', 'NNP')) -> 13
+
+(('tragic', 'JJ'), ('fire', 'NN')) -> 13
+
+(('subtle', 'JJ'), ('corruption', 'NN')) -> 13
+
+(('gallant', 'JJ'), ('sailors', 'NNS')) -> 13
+
+(('endless', 'JJ'), ('potential', 'NN')) -> 13
+
+(('well-meaning', 'JJ'), ('Bishop', 'NNP')) -> 13
+
+(('European', 'JJ'), ('Economic', 'NNP')) -> 13
+
+(('instant', 'JJ'), ('opinions', 'NNS')) -> 13
+
+(('main', 'JJ'), ('elements', 'NNS')) -> 13
+
+(('intellectual', 'JJ'), ('curiosity', 'NN')) -> 13
+
+
+3. CONSIDERARE LE FRASI CON UNA LUNGHEZZA COMPRESA TRA I 10 E I 20 TOKEN, IN CUI ALMENO LA METÁ DEI TOKEN OCCORE ALMENO 2 VOLTE NEL CORPUS(NON È UN HAPAX), SI IDENTIFICHINO:
+
+a. LA FRASE CON LA MEDIA DELLA DISTRIBUZIONE DI FREQUENZA DEI TOKEN PIÙ ALTA
+
+La frase con la media della distribuzione di frequenza dei token più alta è:
+'Goodnight, children.' con una media di frequenza di '129'
+
+
+b. LA FRASE CON LA MEDIA DELLA DISTRIBUZIONE DI FREQUENZA DEI TOKEN PIÙ BASSA
+
+La frase con la media della distribuzione di frequenza dei token più bassa è:
+'Thank you again!' con una media di frequenza di '18'
+
+
+c. LA FRASE CON LA PROBABILITÁ PIÙ ALTA SECONDO UN MODELLO DI MARKOV DI ORDINE 2 COSTRUITO A PARTIRE DAL CORPUS DI INPUT
+
+La frase con la probabilità più alta secondo il modello di Markov di ordine 2 è:
+'I begin these celebrations much encouraged by your good wishes and expressions of loyalty.' con una probabilità di '8.176614881439085e-05'
+
+
+4. ESTATTE LE ENTITÁ NOMINATE DEL TESTO, IDENTIFICARE PER CIASCUNA CLASSE DI NE I 15 ELEMENTI PIÙ FREQUENTI, ORDINATI PER FREQUENZA DESCESCENTE E CON RELATIVA FREQUENZA:
+
+Le 15 entità nominate 'PERSON' più frequenti sono:
+
+('Christmas', 6)
+
+('Diana', 3)
+
+('William', 3)
+
+('Goodnight', 2)
+
+('Queen Victoria', 2)
+
+('Philip', 2)
+
+('Harry', 2)
+
+('Charles', 2)
+
+('Queen Elizabeth II Wartime', 1)
+
+('Margaret Rose', 1)
+
+('God', 1)
+
+('Margaret', 1)
+
+('Cape Town', 1)
+
+('Rupert Brooke', 1)
+
+('William Pitt', 1)
+
+
+Le 15 entità nominate 'GPE' più frequenti sono:
+
+('London', 7)
+
+('British', 4)
+
+('Britain', 3)
+
+('South Africa', 2)
+
+('United States', 2)
+
+('America', 2)
+
+('England', 2)
+
+('Queens', 2)
+
+('Canadian', 2)
+
+('Scotland', 2)
+
+('Wales', 2)
+
+('City', 2)
+
+('Children', 1)
+
+('Canada', 1)
+
+('Australia', 1)
+
+
+Le 15 entità nominate 'ORGANIZATION' più frequenti sono:
+
+('Commonwealth', 9)
+
+('Parliament', 5)
+
+('Lord', 5)
+
+('United Kingdom', 4)
+
+('City', 4)
+
+('Corporation', 3)
+
+('Queen', 3)
+
+('Empire', 2)
+
+('House', 2)
+
+('Commons', 2)
+
+('Jubilee', 2)
+
+('Windsor', 2)
+
+('Diana', 2)
+
+('Christmas', 2)
+
+('Old Country', 1)
+
