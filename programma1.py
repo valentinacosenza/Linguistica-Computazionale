@@ -105,7 +105,7 @@ def main(file1, file2):
     frasi1, token1, numero_frasi1, numero_token1 = calcola_frasi_token(raw1)
     frasi2, token2, numero_frasi2, numero_token2 = calcola_frasi_token(raw2)
 
-    print("Progetto realizzato da Valentina Cosenza (matricola 533194) \n")
+    print("Progetto realizzato da Valentina Cosenza \n")
         
     #Di seguito stampo tutti i risultati ottenuti 
     print("PROGRAMMA 1 \n\n") 

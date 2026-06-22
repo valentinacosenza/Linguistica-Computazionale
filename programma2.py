@@ -180,7 +180,7 @@ def main(file):
     frasi_1 = nltk.sent_tokenize(raw) #suddivido il testo in frasi
     token_pos_1 = pos_tagger(token_1) #assegno i POS tag ai token
 
-    print("Progetto realizzato da Valentina Cosenza (matricola 533194) \n")    
+    print("Progetto realizzato da Valentina Cosenza \n")    
 
     #Di seguito stampo tutti i risultati ottenuti 
     print("PROGRAMMA 2 \n") 
