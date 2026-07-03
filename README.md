@@ -2,7 +2,7 @@
 
 Il progetto contenuto in questo repository è stato realizzato per l'esame di **Linguistica Computazionale** del Corso di Laurea Triennale in **Informatica Umanistica**.
 
-Il lavoro è stato sviluppato da **Valentina Cosenza** sotto la supervisione dei professori **Alessandro Lenci** e **Alessandro Bondielli**.
+Il lavoro è stato sviluppato da *Valentina Cosenza* sotto la supervisione dei professori *Alessandro Lenci* e *Alessandro Bondielli*.
 
 L'obiettivo del progetto è l'analisi computazionale di due corpora in lingua inglese:
 
